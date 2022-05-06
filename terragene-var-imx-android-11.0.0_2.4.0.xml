@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <include name="var-imx-android-11.0.0_2.4.0.xml"/>
+  
+  <remote name="ym-terragene" fetch="https://github.com/ymenchonterragene/" />
+  
+  <project path="device/terragene" name="terragene-android-device" remote="ym-terragene" revision="feature" />
+
+</manifest>
