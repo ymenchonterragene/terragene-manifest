@@ -5,6 +5,9 @@
   
   <remote name="ym-terragene" fetch="https://github.com/ymenchonterragene/" />
   
-  <project path="device/terragene" name="terragene-android-device" remote="ym-terragene" revision="feature" />
+  <project path="device/terragene" name="terragene-android-device" remote="ym-terragene" revision="feature">
+    <copyfile src="scripts/terra-imx-make.sh" dest="device/nxp/common/tools/terra-imx-make.sh"/>
+    <copyfile src="scripts/terra-var-mksdcard.sh" dest="terra-var-mksdcard.sh"/>
+  </project>
 
 </manifest>
